@@ -17,12 +17,12 @@ import GPTEncoder
 public class ChatGPTAPI: @unchecked Sendable {
     
     public enum Constants {
-        public static let defaultModel = "gpt-3.5-turbo"
+        public static let defaultModel = "gpt-4"
         public static let defaultSystemText = "You're a helpful assistant"
-        public static let defaultTemperature = 0.5
+        public static let defaultTemperature = 0.75
     }
     
-    private let urlString = "https://api.openai.com/v1/chat/completions"
+    private let urlString = "https://api.suiyusoft.com/v1/chat/completions"
     private let apiKey: String
     private let gptEncoder = GPTEncoder()
     public private(set) var historyList = [Message]()
