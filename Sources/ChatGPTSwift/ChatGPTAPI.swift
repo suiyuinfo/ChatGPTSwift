@@ -18,7 +18,7 @@ public class ChatGPTAPI: @unchecked Sendable {
     
     public enum Constants {
         public static let defaultModel = "gpt-4"
-        public static let defaultSystemText = "You're a helpful assistant"
+        public static let defaultSystemText = "You are a All-Purpose Assistant."
         public static let defaultTemperature = 0.75
     }
     
